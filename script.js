@@ -10,13 +10,9 @@ document.addEventListener('DOMContentLoaded', function() {
             this.style.transform = 'scale(0.95)';
             setTimeout(() => {
                 this.style.transform = '';
+                // Redirection vers Stripe
+                window.location.href = 'https://buy.stripe.com/cNi28r1OF8UX21q2OK43S00';
             }, 200);
-            
-            // Redirection ou action à personnaliser
-            alert('Redirection vers la page de paiement...\n\nVous pouvez remplacer cette alerte par un lien vers votre page de paiement (Stripe, PayPal, Gumroad, etc.)');
-            
-            // Exemple de redirection :
-            // window.location.href = 'https://votre-lien-de-paiement.com';
         });
     });
 
