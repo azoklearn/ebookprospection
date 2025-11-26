@@ -78,6 +78,39 @@ body {
     color: #000000;
 }
 
+.payment-instructions {
+    margin: 25px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.instruction-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.email-link {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    text-decoration: none;
+    border-bottom: 2px solid #000000;
+    transition: all 0.3s ease;
+    padding: 2px 0;
+}
+
+.email-link:hover {
+    color: #333333;
+    border-bottom-color: #333333;
+    transform: translateY(-1px);
+}
+
 .cta-button {
     background-color: #000000;
     color: #ffffff;
@@ -516,6 +549,19 @@ body {
     .cta-button {
         width: 100%;
         padding: 16px 30px;
+    }
+
+    .payment-instructions {
+        margin: 20px 0;
+        padding: 15px;
+    }
+
+    .instruction-text {
+        font-size: 14px;
+    }
+
+    .email-link {
+        font-size: 16px;
     }
 }
 
